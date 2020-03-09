@@ -1,0 +1,29 @@
+/* CSS sheets are used to style multiple html files*/
+/* each tag can have elements inside it to design the html file*/
+
+h1{
+    color: green;
+}
+h1 a{
+    color: blue;
+}
+h2 a:hover{
+    color: orange;
+}
+
+/* . is a class*/
+
+.Hooded:hover{
+    border-radius: 30 px;
+    box-shadow: red;
+}
+.OpenMickey{
+    border-radius: 30 px;
+    box-shadow: 5 px 10 px orange;
+}
+/*# is a id*/
+
+#young-king-mickey{
+    border-radius: 30 px;
+    box-shadow: 5 px 10 px yellow;
+}
