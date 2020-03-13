@@ -1,0 +1,33 @@
+.cards{
+border: 5px solid #ffcc5c;
+/* display flex allows you to activate flexbox*/
+/* flexbox helps organize images or containers no matter what happens to the website screen size*/
+/* mobile friendly*/
+/*flex direction tells you which way you want things to be shown*/
+/*justify content is for alignment*/
+/* flex wrap just puts the entire section in a container for easier movemment kind of like an image in a wrap on word doc*/
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.cards div{
+margin: 10px;
+text-align: center;
+font-size: 2cm;
+color: white;
+}
+
+.square1{
+background-color: brown;
+}
+
+.square2{
+background-color: purple;
+}
+
+.square3{
+background-color: red;
+}
